@@ -36,5 +36,6 @@ public class C05Integer {
 
 //        java 코드에서 정수 literal 는 int로 해석
 //        long type literal 은 끝에 L(l) 붙여야 함
+
     }
 }
