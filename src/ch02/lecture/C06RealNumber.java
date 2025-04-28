@@ -4,7 +4,7 @@ public class C06RealNumber {
     public static void main(String[] args) {
 //        실수 :
 //        float (4bytes, 16bits)
-        float a = 3.14;
+        float a = 3.14f;
         System.out.println("a = " + a);
 
 //        double (8bytes, 64bits)
