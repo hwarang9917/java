@@ -46,5 +46,6 @@ public class Exercise07 {
 
         System.out.println("프로그램 종료");
 
+
     }
 }

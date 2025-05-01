@@ -16,11 +16,8 @@ public class Exercise07 {
         int option;
         do {
             // 메뉴 출력
-            System.out.println("1. 예금");
-            System.out.println("2. 출금");
-            System.out.println("3. 잔고");
-            System.out.println("4. 종료");
-            System.out.println("선택: ");
+            System.out.print("1.예금" + " " + "2.출금" + " " + "3.잔고" + " " + "4.종료\n");
+            System.out.print("선택: ");
             option = Integer.parseInt(scanner.nextLine());  // 사용자의 선택을 받음
 
             switch (option) {
@@ -29,7 +26,7 @@ public class Exercise07 {
                     int b = Integer.parseInt(scanner.nextLine());
                     if (b > 0) {
                         a += b;  // 예금액을 잔액에 더함
-                        System.out.println("예금 완료. 잔고: " + a + "원");
+                        System.out.println("예금액: " + b + "원\n");
                     }
                     break;
 
@@ -38,12 +35,12 @@ public class Exercise07 {
                     int c = Integer.parseInt(scanner.nextLine());
                     if (c > 0 && c <= a) {
                         a -= c;  // 출금액을 잔액에서 뺌
-                        System.out.println("잔고: " + a + "원");
+                        System.out.println("출금액: " + c + "원\n");
                     }
                     break;
 
                 case 3: // 잔고
-                    System.out.println("잔고: " + a + "원");
+                    System.out.println("잔고: " + a + "원\n");
                     break;
 
                 default: // 종료
