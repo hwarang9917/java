@@ -13,7 +13,7 @@ public class BankApplication {
             System.out.println("------------------------------");
             System.out.println("1.생성|2.목록|3.예금|4.출금|5.종료");
             System.out.println("------------------------------");
-            System.out.print("선택>");
+            System.out.print("선택 > ");
             String menu = scanner.nextLine();
 
             switch (menu) {
