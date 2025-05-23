@@ -21,6 +21,5 @@ public class App02 {
         IntStream s4 = s3.mapToInt(Integer::intValue);// 참조타입스트림 -> 기본타입스트림
         long r2 = s4.count();
         System.out.println("r2 = " + r2);
-
     }
 }
