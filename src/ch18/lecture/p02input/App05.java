@@ -23,6 +23,5 @@ public class App05 {
             os.flush();
         }
         System.out.println("파일 복사 종료");
-
     }
 }

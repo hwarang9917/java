@@ -7,8 +7,6 @@ import java.io.Reader;
 
 public class App01 {
     public static void main(String[] args) throws IOException {
-
-
         // reader : 문자 단위 입력 스트림
         String fileName = "C:/Temp/writer03.txt";
         try (Reader reader = new FileReader(fileName)) {
